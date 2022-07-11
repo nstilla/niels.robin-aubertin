@@ -11,7 +11,9 @@ i = 0
 ma_comptine = []
 while i < 3:
     i = i + 1
+    # on stocke chage vers généré dans la list ma_comptine
     ma_comptine.append(comptine(i))
 
+# On affiche maintenant les vers stockés sous forme de liste
 for vers in ma_comptine:
     print(vers)
